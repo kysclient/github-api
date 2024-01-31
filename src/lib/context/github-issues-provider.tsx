@@ -42,9 +42,7 @@ export const GitHubIssuesProvider: React.FC<GitHubIssuesProviderProps> = ({
             Accept: "application/vnd.github+json",
             "X-GitHub-Api-Version": "2022-11-28",
             "User-Agent": "thingsflow-assignment-app",
-            Authorization: `Bearer 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`,
-            // Authorization: `Bearer ${import.meta.env.VITE_ACCESS_TOKEN}`,
-            
+            Authorization: `Bearer ${import.meta.env.VITE_ACCESS_TOKEN}`,          
           },
         }
       );
