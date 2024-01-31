@@ -8,6 +8,7 @@ export default {
       },
       colors: {
         "main-accent": "rgb(var(--main-accent) / <alpha-value>)",
+        "transparent-white": "rgba(255, 255, 255, 0.08)",
       },
     },
   },

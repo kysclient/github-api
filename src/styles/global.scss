@@ -6,8 +6,9 @@
 @layer base {
     :root {
         --main-accent: var(--accent-hellowbot);
-  
-        --accent-hellowbot: 255 233 103
+        --accent-hellowbot: 255 233 103;
+        --navigation-height: 4.8rem;  
+        --bottom-tab-height: 4.8rem;  
       }
     html {
         @apply font-pretendard;
