@@ -1,0 +1,16 @@
+@use 'font';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --main-accent: var(--accent-hellowbot);
+  
+        --accent-hellowbot: 255 233 103
+      }
+    html {
+        @apply font-pretendard;
+    }
+    
+}
